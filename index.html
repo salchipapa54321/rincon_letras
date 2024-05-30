@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rincón de letras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Rincón de letras</h1>
+    </header>
+    
+    <nav id="menu">
+        <h2 class="menu-title">Selecciona un Juego <img src="ping/aprovechar.png" style="width: 25px; height: 25px;"></h2>
+        <div class="button-container">
+            <button onclick="startGame('wordScramble')">Palabras Desordenadas</button>
+            <button onclick="startGame('missingLetters')">Letras Faltantes</button>
+            <button onclick="startGame('matchImagesWords')">Emparejar Imágenes y Palabras</button>
+            <button onclick="startGame('triviaWords')">Trivia de Palabras</button>
+            <button onclick="startGame('riddles')">Adivinanzas</button>
+            <button onclick="startGame('completePhrases')">Completar Frases</button> <!-- Nuevo juego agregado -->
+        </div>
+    </nav>
+
+    <!-- Contenido de juego -->
+    <main id="gameArea" class="hidden" style="margin-top: 170px;">
+        <section id="gameContent">
+            <!-- Aquí se generará el contenido del juego -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rincón de letras. Todos los derechos reservados. </p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

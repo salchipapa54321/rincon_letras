@@ -1,0 +1,176 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000; /* Texto negro predeterminado */
+}
+
+header {
+    background-color: #6880f7; /* Azul Instagram */
+    color: #FFF; /* Texto blanco */
+    padding: 40px 0; /* Reducir el espacio de relleno */
+    text-align: center;
+    position: fixed; /* Fijo en la parte superior */
+    width: 100%; /* Abarcar todo el ancho */
+    top: 0;
+    z-index: 1000; /* Asegura que el encabezado esté por encima del contenido */
+}
+
+h1 {
+    margin: 0;
+    font-size: 34px; /* Reducir el tamaño de la fuente */
+}
+
+.menu-title {
+    font-size: 28px; /* Ajustar el tamaño de la fuente */
+    margin-bottom: 8px;
+    color: #FFF; /* Texto blanco */
+}
+
+#menu {
+    background-color: #f79781; /* Rosa Instagram */
+    text-align: center;
+    color: #000; /* Texto negro */
+    padding: 15px 0; /* Aumentar el espacio de relleno */
+    margin-top: 18px; /* Aumentar el espacio superior */
+    position: fixed; /* Fijo en la parte superior */
+    width: 100%; /* Abarcar todo el ancho */
+    top: 80px; /* Espacio desde la parte superior */
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+    margin-bottom: 100px; /* Agrega un margen inferior */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#menu button {
+    background-color: #5851DB; /* Morado Instagram */
+    color: #FFF; /* Texto blanco */
+    padding: 18px 24px; /* Aumentar el tamaño del botón */
+    margin: 5px; /* Espacio entre los botones */
+    border: none;
+    cursor: pointer;
+    font-size: 18px; /* Aumentar el tamaño de la fuente */
+}
+
+#menu button:hover {
+    background-color: #6f07c4; /* Naranja Instagram */
+    color: #FFF; /* Texto blanco */
+}
+
+main {
+    padding: 80px;
+    text-align: center; /* Centrar el contenido principal */
+    margin-top: 120px; /* Aumentar el espacio superior */
+}
+
+.game-container {
+    margin: 0 auto 40px; /* Aumentar el espacio inferior */
+    max-width: 700px; /* Reducir el ancho máximo */
+    padding: 40px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    margin-bottom: 80px; /* Aumentar el margen inferior */
+}
+
+.game-title {
+    font-size: 36px; /* Aumentar el tamaño de la fuente */
+    margin-bottom: 20px;
+    color: #FFA07A; /* Naranja Suave */
+    text-align: center;
+}
+
+.game-subtitle {
+    font-size: 28px; /* Aumentar el tamaño de la fuente */
+    margin-bottom: 20px; /* Aumentar el espacio entre el subtítulo y el contenido */
+    color: #000000; /* Texto negro */
+}
+
+.game-content {
+    text-align: center;
+    margin-top: 40px; /* Añadir espacio superior al contenido del juego */
+    font-size: 28px; /* Aumentar el tamaño de la fuente */
+}
+
+.game-content table {
+    margin: 0 auto 40px; /* Centrar la tabla dentro del contenedor y añadir espacio inferior */
+    border-collapse: collapse;
+}
+
+.game-content table td {
+    border: 2px solid #87CEFA; /* Azul Cielo */
+    padding: 28px; /* Aumentar el espacio de relleno */
+    cursor: pointer;
+    font-size: 36px; /* Aumentar el tamaño de la fuente */
+}
+
+.game-content table td:hover {
+    background-color: #FFFACD; /* Amarillo Crema */
+}
+
+.game-content .wordList {
+    margin-top: 20px;
+    font-size: 28px; /* Aumentar el tamaño de la fuente */
+}
+
+.game-content .pair {
+    margin: 40px auto; /* Centrar el contenido de emparejar */
+}
+
+.game-content .matchImage {
+    width: 100px; /* Aumentar el tamaño de las imágenes */
+    height: auto;
+}
+
+.tamañoImagen {
+    width: 120px; /* Aumentar el tamaño de las imágenes */
+    height: auto;
+}
+
+.tablaImagen{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.game-content input {
+    font-size: 36px; /* Aumentar el tamaño de la fuente */
+    padding: 20px; /* Aumentar el espacio dentro del input */
+    margin-bottom: 30px; /* Separación entre las preguntas */
+    width: 80%; /* Ancho del cuadro de respuesta */
+}
+
+.game-content input.correct {
+    border: 3px solid #98FB98; /* Verde Menta */
+}
+
+.game-content input.incorrect {
+    border: 3px solid #cd0000; /* Rojo Suave */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0; /* Reducir el espacio de relleno */
+    background-color: #d7fbfd; /* Color de fondo verde bonito */
+    color: #000; /* Color de texto negro */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 12px; /* Reducir el tamaño del texto */
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2); /* Sombra superior para efecto de elevación */
+}
+
+footer a {
+    color: #FFEB3B; /* Color de enlace amarillo */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
